@@ -1,5 +1,6 @@
-### 안녕하세요 👋 프론트엔드 개발 공부하고 있는 오하은입니다.
-
+### 안녕하세요 👋 
+<p>프론트엔드 개발 공부하고 있는 오하은입니다.</p>
+<br/>
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=OHaEuN&show_icons=true&theme=gotham)
 
