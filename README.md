@@ -1,10 +1,6 @@
 ### Hi There 👋 
 <br/>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=OHaEuN&show_icons=true&theme=gotham)
-<br/>
-
-
 ## 💪 Skills
 
 <p>
