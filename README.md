@@ -1,6 +1,6 @@
 <div align="center">
 
-## 안녕하세요, 프론트엔드 개발자 오하은입니다 👋
+## 👋
 
 [![Blog](https://img.shields.io/badge/Blog-oaeuhn.tistory.com-FF7A59?style=flat-square&logo=tistory&logoColor=white)](https://oaeuhn.tistory.com/)
 [![Gmail](https://img.shields.io/badge/Gmail-ohrhe0801@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ohrhe0801@gmail.com)
