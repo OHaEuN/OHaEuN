@@ -137,7 +137,7 @@ body:not(.layout-post) .progress { display: none; }
 /* ── Home hero ──────────────────────────────────────────────────── */
 .hero { max-width: var(--content-w); margin: 0 auto; padding: 72px 20px 36px; }
 .hero-image { display: block; width: 140px; height: 140px; object-fit: contain; margin-bottom: 20px; border-radius: 20px; }
-.hero-title { margin: 0 0 16px; font-size: 40px; line-height: 1.2; font-weight: 800; letter-spacing: -.03em; color: var(--text-strong); }
+.hero-title { margin: 0 0 14px; font-size: 26px; line-height: 1.35; font-weight: 500; letter-spacing: -.02em; color: var(--text-muted); }
 .hero-text { margin: 0 0 16px; font-size: 17px; color: var(--text-muted); }
 .hero-links { display: flex; gap: 8px; margin: 0; flex-wrap: wrap; }
 .hero-links a {
@@ -484,7 +484,7 @@ body:not(.layout-post) .progress { display: none; }
   .container, .post-layout, .hero { padding-left: 16px; padding-right: 16px; }
   .hero { padding-top: 48px; }
   .hero-image { width: 112px; height: 112px; }
-  .hero-title { font-size: 32px; }
+  .hero-title { font-size: 22px; }
   .chips { flex-wrap: nowrap; overflow-x: auto; margin: 0 -16px 8px; padding: 0 16px 16px; scrollbar-width: none; }
   .chips::-webkit-scrollbar { display: none; }
   .chip { flex: none; }
