@@ -2,7 +2,7 @@
 
 ## 👋
 
-[![Blog](https://img.shields.io/badge/Blog-ohaeun.github.io-FF7A59?style=flat-square&logo=githubpages&logoColor=white)](https://ohaeun.github.io/OHaEuN/)
+[![Blog](https://img.shields.io/badge/Blog-haeun.log-FF7A59?style=flat-square&logo=githubpages&logoColor=white)](https://ohaeun.github.io/OHaEuN/)
 [![Gmail](https://img.shields.io/badge/Gmail-ohrhe0801@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ohrhe0801@gmail.com)
 
 </div>
