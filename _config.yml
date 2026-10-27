@@ -1,7 +1,7 @@
 # ── 블로그 기본 정보 ─────────────────────────────────────────
-title: "OHaEuN"
+title: "OHaEuN의 기술 블로그"
 author: OHaEuN
-description: "프론트엔드 개발 블로그"
+description: "OHaEuN의 프론트엔드 기술 블로그"
 lang: ko_KR
 timezone: Asia/Seoul
 
@@ -9,7 +9,7 @@ url: "https://ohaeun.github.io"
 baseurl: "/OHaEuN"
 
 # 홈 상단 소개
-intro_title: "OHaEuN"
+intro_title: "OHaEuN의 기술 블로그"
 # 대문 이미지 (이 경로에 파일을 올리면 홈 상단에 표시됨)
 hero_image: /assets/img/hero.png
 github_username: OHaEuN
