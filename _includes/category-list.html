@@ -1,0 +1,15 @@
+{%- comment -%}Category chips. include.current = active category path ("" for all).{%- endcomment -%}
+<nav class="chips" aria-label="카테고리">
+  <a class="chip{% if include.current == '' %} is-active{% endif %}" href="{{ '/category' | relative_url }}">전체 <span>{{ site.posts.size }}</span></a>
+  {%- for cat in site.category_tree %}
+    {%- assign n = 0 %}
+    {%- assign prefix = cat.name | append: '/' %}
+    {%- for p in site.posts %}{% assign pc = p.category | append: '' %}{% if pc == cat.name %}{% assign n = n | plus: 1 %}{% elsif pc contains prefix %}{% assign n = n | plus: 1 %}{% endif %}{% endfor %}
+    <a class="chip{% if include.current == cat.name %} is-active{% endif %}" href="{{ '/category/' | append: cat.name | uri_escape | relative_url }}">{{ cat.name }} <span>{{ n }}</span></a>
+    {%- for child in cat.children %}
+      {%- assign path = cat.name | append: '/' | append: child %}
+      {%- assign cp = site.posts | where: "category", path %}
+      <a class="chip chip-sub{% if include.current == path %} is-active{% endif %}" href="{{ '/category/' | append: path | uri_escape | relative_url }}">{{ child }} <span>{{ cp.size }}</span></a>
+    {%- endfor %}
+  {%- endfor %}
+</nav>

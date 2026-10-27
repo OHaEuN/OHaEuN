@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="post-header">
+  <span><h1>{{ page.list_title }}</h1></span>
+  <span style="padding-left: 5px; font-weight: bold;">({{ page.list_posts.size }})</span>
+  <div class="list-type">
+    <button type="button" class="thum">썸네일형</button>
+    <button type="button" class="list">리스트형</button>
+  </div>
+</div>
+<div class="inner">
+  {%- for post in page.list_posts %}
+  <div class="post-item">
+    <a href="{{ post.url | relative_url }}">
+      <span class="thum">
+        {%- if post.thumbnail %}
+        <img loading="lazy" src="{{ post.thumbnail | relative_url }}" alt="">
+        {%- endif %}
+      </span>
+      <span class="title">{{ post.title }}</span>
+      <span class="excerpt">{{ post.description | truncate: 250, '..' }}</span>
+    </a>
+  </div>
+  {%- endfor %}
+</div>

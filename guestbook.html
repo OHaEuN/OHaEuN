@@ -1,0 +1,19 @@
+---
+layout: default
+title: 방명록
+permalink: /guestbook
+sitemap: false
+---
+<section class="container">
+  <header class="archive-header">
+    <h1 class="archive-title">방명록</h1>
+    <p class="archive-count">자유롭게 한마디 남겨주세요.</p>
+  </header>
+  {%- if site.utterances_repo != "" %}
+  <div class="comments">
+    <script src="https://utteranc.es/client.js" repo="{{ site.utterances_repo }}" issue-term="guestbook" theme="preferred-color-scheme" crossorigin="anonymous" async></script>
+  </div>
+  {%- else %}
+  <p>방명록이 아직 설정되지 않았습니다.</p>
+  {%- endif %}
+</section>
