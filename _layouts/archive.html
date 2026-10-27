@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<section class="container">
+  <header class="archive-header">
+    <p class="archive-kicker">{% if page.archive_type == 'tag' %}태그{% else %}카테고리{% endif %}</p>
+    <h1 class="archive-title">{% if page.archive_type == 'tag' %}#{% endif %}{{ page.archive_title }}</h1>
+    <p class="archive-count">{{ page.list_posts.size }}개의 글</p>
+  </header>
+  {%- if page.archive_type == 'category' %}
+  {% include category-list.html current=page.archive_path %}
+  {%- endif %}
+  {% include post-list.html posts=page.list_posts %}
+</section>

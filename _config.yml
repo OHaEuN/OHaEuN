@@ -1,0 +1,81 @@
+# ── 블로그 기본 정보 ─────────────────────────────────────────
+title: "OHaEuN"
+author: OHaEuN
+description: "프론트엔드 개발 블로그"
+lang: ko_KR
+timezone: Asia/Seoul
+
+url: "https://ohaeun.github.io"
+baseurl: "/OHaEuN"
+
+# 홈 상단 소개
+intro_title: "OHaEuN"
+# 대문 이미지 (이 경로에 파일을 올리면 홈 상단에 표시됨)
+hero_image: /assets/img/hero.png
+github_username: OHaEuN
+email: ohrhe0801@gmail.com
+
+# ── 방문자/유입 경로 분석 ───────────────────────────────────
+# Google Analytics 4 측정 ID (예: G-XXXXXXXXXX). 비워두면 비활성화.
+google_analytics: "G-9D38TWVPGG"
+# GoatCounter 코드 (https://<code>.goatcounter.com). 티스토리 '유입 경로'와 비슷한
+# 리퍼러/검색어/브라우저 통계를 간단히 볼 수 있음. 비워두면 비활성화.
+goatcounter: ""
+
+# ── 검색엔진 등록(SEO) ──────────────────────────────────────
+# Google Search Console / Naver 서치어드바이저 / Bing 소유 확인용 meta 값
+# 값을 받은 뒤 아래 주석을 풀고 입력하세요.
+# webmaster_verifications:
+#   google: "구글_서치콘솔_확인코드"
+#   bing: "빙_확인코드"
+naver_site_verification: ""
+
+twitter:
+  card: summary_large_image
+
+logo: /assets/img/icon-512.png
+
+# ── 댓글 / 방명록 (utterances, 선택) ─────────────────────────
+# https://github.com/apps/utterances 를 이 레포에 설치한 뒤 "OHaEuN/OHaEuN" 입력
+utterances_repo: ""
+
+# ── 빌드 설정 ──────────────────────────────────────────────
+permalink: /:title
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter_opts:
+    disable: true   # highlight.js로 클라이언트에서 하이라이팅 (언어 자동 감지)
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: rss.xml
+
+defaults:
+  - scope: { path: "" }
+    values: { image: /assets/img/icon-512.png }   # 대표 이미지가 없을 때 공유 미리보기
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .github
+  - tools
+  - BLOG.md
+
+# ── 카테고리 (메뉴 노출 순서) ─────────────────────────────
+# 하위 카테고리는 "상위/하위" 형식. 글 front matter의 category 값과 일치해야 함.
+category_tree:
+  - name: Javascript
+  - name: Front-end
+    children: [GSAP]
+  - name: DevOps
+  - name: Back-end

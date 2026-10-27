@@ -1,0 +1,92 @@
+---
+layout: default
+---
+{%- assign base = site.baseurl -%}
+{%- assign src_from = 'src="/assets/' -%}{%- assign src_to = 'src="' | append: base | append: '/assets/' -%}
+{%- assign href_from = 'href="/' -%}{%- assign href_to = 'href="' | append: base | append: '/' -%}
+{%- assign bg_from = "url('/assets/" -%}{%- assign bg_to = "url('" | append: base | append: "/assets/" -%}
+{%- assign chars = content | strip_html | strip_newlines | size -%}
+{%- assign minutes = chars | divided_by: 600 | plus: 1 -%}
+<div class="post-layout">
+  <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+    <header class="post-header">
+      {%- if page.category != "" %}
+      <nav class="post-breadcrumb" aria-label="카테고리">
+        {%- assign parts = page.category | split: '/' %}
+        {%- assign acc = '' %}
+        {%- for part in parts %}
+          {%- if forloop.first %}{% assign acc = part %}{% else %}{% assign acc = acc | append: '/' | append: part %}{% endif %}
+          <a href="{{ '/category/' | append: acc | uri_escape | relative_url }}">{{ part }}</a>{% unless forloop.last %}<span aria-hidden="true">/</span>{% endunless %}
+        {%- endfor %}
+      </nav>
+      {%- endif %}
+      <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+      <div class="post-meta">
+        <span itemprop="author">{{ site.author }}</span>
+        <span class="dot" aria-hidden="true">·</span>
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y년 %-m월 %-d일" }}</time>
+        <span class="dot" aria-hidden="true">·</span>
+        <span>{{ minutes }}분 읽기</span>
+      </div>
+      {%- if page.tags.size > 0 %}
+      <ul class="post-tags">
+        {%- for tag in page.tags %}<li><a href="{{ '/tag/' | append: tag | uri_escape | relative_url }}">#{{ tag }}</a></li>{% endfor %}
+      </ul>
+      {%- endif %}
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      {{ content | replace: src_from, src_to | replace: href_from, href_to | replace: bg_from, bg_to }}
+    </div>
+
+    <nav class="post-nav" aria-label="이전/다음 글">
+      {%- if page.previous %}
+      <a class="post-nav-item prev" href="{{ page.previous.url | relative_url }}">
+        <span class="post-nav-label">← 이전 글</span>
+        <span class="post-nav-title">{{ page.previous.title }}</span>
+      </a>
+      {%- else %}<span></span>{% endif %}
+      {%- if page.next %}
+      <a class="post-nav-item next" href="{{ page.next.url | relative_url }}">
+        <span class="post-nav-label">다음 글 →</span>
+        <span class="post-nav-title">{{ page.next.title }}</span>
+      </a>
+      {%- endif %}
+    </nav>
+
+    {%- if page.category != "" %}
+    {%- assign related = site.posts | where: "category", page.category %}
+    {%- if related.size > 1 %}
+    <section class="related">
+      <h2 class="related-title">‘{{ page.category | split: '/' | last }}’ 카테고리의 다른 글</h2>
+      <ul class="related-grid">
+        {%- assign shown = 0 %}
+        {%- for p in related %}
+        {%- if p.url != page.url and shown < 4 %}
+        {%- assign shown = shown | plus: 1 %}
+        <li>
+          <a href="{{ p.url | relative_url }}">
+            <div class="related-thumb">{% if p.thumbnail %}<img loading="lazy" src="{{ p.thumbnail | relative_url }}" alt="">{% else %}<span aria-hidden="true">{{ p.title | slice: 0 }}</span>{% endif %}</div>
+            <span class="related-name">{{ p.title }}</span>
+            <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%Y.%m.%d" }}</time>
+          </a>
+        </li>
+        {%- endif %}
+        {%- endfor %}
+      </ul>
+    </section>
+    {%- endif %}
+    {%- endif %}
+
+    {%- if site.utterances_repo != "" %}
+    <section class="comments">
+      <script src="https://utteranc.es/client.js" repo="{{ site.utterances_repo }}" issue-term="pathname" theme="preferred-color-scheme" crossorigin="anonymous" async></script>
+    </section>
+    {%- endif %}
+  </article>
+
+  <aside class="toc" aria-label="목차" data-toc hidden>
+    <p class="toc-title">목차</p>
+    <ol data-toc-list></ol>
+  </aside>
+</div>
