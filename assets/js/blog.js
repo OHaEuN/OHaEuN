@@ -62,7 +62,8 @@
       v.controls = true;
       v.preload = 'metadata';
       v.playsInline = true;
-      a.parentNode.insertBefore(v, a);
+      a.parentNode.classList.add('has-video');
+      a.parentNode.replaceChild(v, a);
     });
 
     // Toggle blocks.
