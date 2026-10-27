@@ -16,8 +16,8 @@
   {%- feed_meta %}
   <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#191919" media="(prefers-color-scheme: dark)">
-  <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/favicon-32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="64x64" href="{{ '/assets/img/favicon-64.png' | relative_url }}">
   <link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
   <script>
     (function () {
@@ -36,7 +36,7 @@
   <header class="site-header">
     <div class="site-header-inner">
       <a class="site-logo" href="{{ '/' | relative_url }}">
-        <img src="{{ '/favicon.svg' | relative_url }}" alt="" width="24" height="24">
+        <img src="{{ '/assets/img/favicon-64.png' | relative_url }}" alt="" width="28" height="28">
         <span>{{ site.intro_title }}</span>
       </a>
       <nav class="site-nav" aria-label="메인 메뉴">
