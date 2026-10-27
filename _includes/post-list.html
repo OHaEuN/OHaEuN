@@ -1,0 +1,19 @@
+<ul class="post-list">
+  {%- for post in include.posts %}
+  <li class="post-row">
+    <a href="{{ post.url | relative_url }}">
+      <div class="post-row-body">
+        <div class="post-row-meta">
+          {%- if post.category != "" %}<span class="post-row-cat">{{ post.category | split: '/' | last }}</span>{% endif %}
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+        </div>
+        <h3 class="post-row-title">{{ post.title }}</h3>
+        <p class="post-row-excerpt">{{ post.description | truncate: 180, '…' }}</p>
+      </div>
+      {%- if post.thumbnail %}
+      <div class="post-row-thumb"><img loading="lazy" src="{{ post.thumbnail | relative_url }}" alt=""></div>
+      {%- endif %}
+    </a>
+  </li>
+  {%- endfor %}
+</ul>

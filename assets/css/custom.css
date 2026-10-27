@@ -1,0 +1,15 @@
+/* GitHub Pages 이전에 따른 보정 스타일 (티스토리 시스템 스타일 대체) */
+#header .search form { margin: 0; }
+.entry-content figure.imageblock { text-align: center; }
+.entry-content figure.imageblock.alignLeft { text-align: left; }
+.entry-content figure.imageblock img { max-width: 100%; height: auto; }
+.entry-content figure.imageblock p { margin: 0; }
+.entry-content figure.imageblock figcaption { display: block; text-align: center; font-size: 13px; color: #7b8794; margin-top: 8px; }
+.entry-content pre code.hljs { padding: 1em; }
+.entry-content table { max-width: 100%; }
+.entry-content table th, .entry-content table td { border: 1px solid #ddd; padding: 6px 10px; }
+.screen_out { overflow: hidden; position: absolute; width: 0; height: 0; line-height: 0; text-indent: -9999px; }
+/* 원본 글에서 주로 쓰인 본문 글꼴/크기를 글 단위로 적용 */
+.contents_style.ke-size18 p:not([data-ke-size]) { font-size: 1.12em; }
+.contents_style.font-nanum-gothic p, .contents_style.font-nanum-gothic li, .contents_style.font-nanum-gothic h2, .contents_style.font-nanum-gothic h3, .contents_style.font-nanum-gothic h4 { font-family: 'Nanum Gothic', sans-serif; }
+.contents_style.font-noto-sans-demilight p, .contents_style.font-noto-sans-demilight li, .contents_style.font-noto-sans-demilight h2, .contents_style.font-noto-sans-demilight h3, .contents_style.font-noto-sans-demilight h4 { font-family: 'Noto Sans Demilight', 'Noto Sans KR', sans-serif; }

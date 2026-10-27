@@ -1,0 +1,17 @@
+---
+layout: default
+title: 태그
+permalink: /tag
+---
+<section class="container">
+  <header class="archive-header">
+    <p class="archive-kicker">태그</p>
+    <h1 class="archive-title">모든 태그</h1>
+    <p class="archive-count">{{ site.data.all_tags.size }}개의 태그</p>
+  </header>
+  <ul class="tag-cloud">
+    {%- for tag in site.data.all_tags %}
+    <li><a href="{{ '/tag/' | append: tag.name | uri_escape | relative_url }}">#{{ tag.name }} <span>{{ tag.count }}</span></a></li>
+    {%- endfor %}
+  </ul>
+</section>

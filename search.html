@@ -1,0 +1,17 @@
+---
+layout: default
+title: 검색
+permalink: /search
+sitemap: false
+---
+<section class="container">
+  <header class="archive-header">
+    <p class="archive-kicker">검색</p>
+    <h1 class="archive-title" data-search-page-title>검색</h1>
+    <p class="archive-count" data-search-page-count></p>
+  </header>
+  <form class="search-page-form" action="{{ '/search' | relative_url }}" method="get" role="search">
+    <input type="search" name="q" placeholder="검색어를 입력하세요" aria-label="검색어" data-search-page-input>
+  </form>
+  <ul class="post-list" data-search-page-results></ul>
+</section>

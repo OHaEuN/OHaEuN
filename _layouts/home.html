@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<section class="hero">
+  {%- assign hero_file = site.static_files | where: "path", site.hero_image | first %}
+  {%- if hero_file %}
+  <img class="hero-image" src="{{ site.hero_image | relative_url }}" alt="" width="140" height="140">
+  {%- endif %}
+  <h1 class="hero-title">{{ site.intro_title }}</h1>
+  <p class="hero-links">
+    <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
+    <a href="mailto:{{ site.email }}">Email</a>
+    <a href="{{ '/rss.xml' | relative_url }}">RSS</a>
+  </p>
+</section>
+
+<section class="container">
+  {% include category-list.html current="" %}
+  {% include post-list.html posts=site.posts %}
+</section>
