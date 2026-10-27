@@ -66,10 +66,11 @@
     });
 
     // Toggle blocks.
-    $$("div[data-ke-type='moreLess'] > .btn-toggle-moreless", article).forEach(function (btn) {
+    $$("div[data-ke-type='moreLess'] .btn-toggle-moreless", article).forEach(function (btn) {
       btn.setAttribute('role', 'button');
       btn.setAttribute('tabindex', '0');
-      var box = btn.parentElement;
+      var box = btn.closest("div[data-ke-type='moreLess']");
+      if (btn.parentElement.tagName === 'P') btn.parentElement.classList.add('moreless-toggle-row');
       var toggle = function (e) {
         e.preventDefault();
         box.classList.toggle('open');

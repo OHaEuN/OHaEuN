@@ -401,7 +401,8 @@ body:not(.layout-post) .progress { display: none; }
 }
 .post-content .btn-toggle-moreless:hover { background: var(--bg-hover); }
 .post-content .btn-toggle-moreless::before { content: "▸"; display: inline-block; transition: transform .15s; color: var(--text-muted); }
-.post-content div[data-ke-type="moreLess"].open > .btn-toggle-moreless::before { transform: rotate(90deg); }
+.post-content div[data-ke-type="moreLess"].open .btn-toggle-moreless::before { transform: rotate(90deg); }
+.post-content .moreless-toggle-row { margin: 0; }
 .post-content .moreless-content { display: none; padding: 8px 0 0 22px; }
 .post-content div[data-ke-type="moreLess"].open > .moreless-content { display: block; }
 
