@@ -37,11 +37,11 @@
 
 ## 💼 What I've Worked On
 
-- **모노레포 전환**: 레거시 Next.js 단일 레포를 Turborepo 모노레포로 이관 설계 → [글](https://ohaeun.github.io/OHaEuN/17)
-- **이관 QA 자동화**: 레거시 기능을 TC로 만들고 Playwright가 직접 실행·녹화하는 QA 체계 구축 → [글](https://ohaeun.github.io/OHaEuN/20)
-- **하이브리드 앱 전환**: PDA 브라우저 웹을 React Native(Expo) WebView 앱쉘로 전환 → [글](https://ohaeun.github.io/OHaEuN/21)
-- **빌드 최적화**: Babel → SWC 전환 → [글](https://ohaeun.github.io/OHaEuN/18)
-- **서버 단순화**: Express 커스텀 서버를 Next.js API Routes로 마이그레이션 → [글](https://ohaeun.github.io/OHaEuN/19)
+- [**모노레포 전환**](https://ohaeun.github.io/OHaEuN/17) — 레거시 Next.js 단일 레포를 Turborepo 모노레포로 이관 설계
+- [**이관 QA 자동화**](https://ohaeun.github.io/OHaEuN/20) — 레거시 기능을 TC로 만들고 Playwright가 직접 실행·녹화하는 QA 체계 구축
+- [**하이브리드 앱 전환**](https://ohaeun.github.io/OHaEuN/21) — PDA 브라우저 웹을 React Native(Expo) WebView 앱쉘로 전환
+- [**빌드 최적화**](https://ohaeun.github.io/OHaEuN/18) — Babel → SWC 전환
+- [**서버 단순화**](https://ohaeun.github.io/OHaEuN/19) — Express 커스텀 서버를 Next.js API Routes로 마이그레이션
 
 <br>
 
