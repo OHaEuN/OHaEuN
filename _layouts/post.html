@@ -1,10 +1,6 @@
 ---
 layout: default
 ---
-{%- assign base = site.baseurl -%}
-{%- assign src_from = 'src="/assets/' -%}{%- assign src_to = 'src="' | append: base | append: '/assets/' -%}
-{%- assign href_from = 'href="/' -%}{%- assign href_to = 'href="' | append: base | append: '/' -%}
-{%- assign bg_from = "url('/assets/" -%}{%- assign bg_to = "url('" | append: base | append: "/assets/" -%}
 {%- assign chars = content | strip_html | strip_newlines | size -%}
 {%- assign minutes = chars | divided_by: 600 | plus: 1 -%}
 <div class="post-layout">
@@ -36,7 +32,7 @@ layout: default
     </header>
 
     <div class="post-content" itemprop="articleBody">
-      {{ content | replace: src_from, src_to | replace: href_from, href_to | replace: bg_from, bg_to }}
+      {{ content }}
     </div>
 
     <nav class="post-nav" aria-label="이전/다음 글">
