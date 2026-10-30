@@ -41,6 +41,7 @@ utterances_repo: ""
 
 # ── 빌드 설정 ──────────────────────────────────────────────
 permalink: /:title
+future: true   # 게시 시각이 빌드 시각보다 조금 뒤여도 글을 포함
 markdown: kramdown
 kramdown:
   input: GFM
