@@ -17,6 +17,8 @@
 <tr>
 <td width="50%" valign="top">
 
+<img src="assets/img/readme-spacer.png" width="2000" height="1" align="right" alt="">
+
 ### 🎨 톤빛 ToneBit
 
 **셀카 한 장으로 찾는 퍼스널 컬러와 립·블러셔 가상 체험**
@@ -25,6 +27,8 @@
 
 </td>
 <td width="50%" valign="top">
+
+<img src="assets/img/readme-spacer.png" width="2000" height="1" align="right" alt="">
 
 ### 🐹 치이카와 파인더
 
@@ -106,6 +110,8 @@ GitHub Actions로 **매일 자동 수집 → 테스트 → 배포**
 <tr>
 <td width="50%" valign="top">
 
+<img src="assets/img/readme-spacer.png" width="2000" height="1" align="right" alt="">
+
 #### 🏫 [SKKLUB v3](https://github.com/OHaEuN/skklub-v3-frontend)
 
 **성균관대학교 동아리를 소개하고, 원하는 동아리를 찾도록 돕는 서비스**
@@ -114,6 +120,8 @@ GitHub Actions로 **매일 자동 수집 → 테스트 → 배포**
 
 </td>
 <td width="50%" valign="top">
+
+<img src="assets/img/readme-spacer.png" width="2000" height="1" align="right" alt="">
 
 #### 📸 [CongCampus](https://github.com/OHaEuN/c-campus-frontend)
 
