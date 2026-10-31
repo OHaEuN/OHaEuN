@@ -13,25 +13,42 @@
 
 ## 🚀 Side Projects
 
-### 🎨 [톤빛 ToneBit](https://github.com/OHaEuN/tonebit) · [tonebit.vercel.app](https://tonebit.vercel.app)
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🎨 톤빛 ToneBit
 
 **셀카 한 장으로 퍼스널 컬러를 찾고, 어울리는 립을 얼굴에 바로 발라 보는 서비스**
 
-- 웜·쿨 톤과 12시즌 타입을 판정하고, 왜 그렇게 나왔는지 근거까지 보여줘요
-- 추천 립·블러셔를 카메라 속 얼굴에 실시간으로 입혀 볼 수 있어요
-- 얼굴 사진은 서버로 보내지 않아요. 분석과 렌더링이 모두 브라우저 안에서 끝나요
+<sub>2026.10 ~ · 개인 프로젝트 · AI 에이전트 활용 개발</sub>
 
-`Next.js 16` `React 19` `MediaPipe` `Zustand` `Postgres` `Gemini` `Playwright`
+> 📈 FairFace 동아시아인 1,176장으로 기준 재보정<br>
+> 시즌 일치율 **84.1% → 86.8%**, 12톤 **64.3% → 74.5%**
 
-### 🐹 [치이카와 파인더](https://github.com/OHaEuN/chiikawaFinder) · [chiikawa-finder.vercel.app](https://chiikawa-finder.vercel.app)
+`Next.js 16` `React 19` `MediaPipe` `Zustand` `Supabase` `pgvector` `Gemini` `Playwright`
 
-**치이카와 팬을 위한 정보 모음 사이트**
+[🔗 서비스](https://tonebit.vercel.app) · [💻 GitHub](https://github.com/OHaEuN/tonebit)
 
-- 캐릭터, 작품 보는 곳, 팝업·매장 지도, 신상 굿즈를 한곳에서 볼 수 있어요
-- 굿즈 발매일과 재입고 일정을 캘린더로 모아 보여줘요
-- 직구 계산기로 공구 환율에 숨은 수수료와 면세 한도까지 따져 최종 금액을 알려줘요
+</td>
+<td width="50%" valign="top">
 
-`Next.js 16` `React 19` `Leaflet` `Three.js`
+### 🐹 치이카와 파인더
+
+**흩어진 치이카와 정보와 굿즈를 한곳에 모은 팬 사이트**
+
+<sub>2026.09 ~ 운영 중 · 개인 프로젝트 · AI 에이전트 활용 개발</sub>
+
+> 📈 굿즈 2,300여 건 · 팝업/매장 81곳 · 인물 45명<br>
+> GitHub Actions로 **매일 자동 수집 → 테스트 → 배포**
+
+`Next.js 16` `React 19` `TypeScript` `Three.js` `Leaflet` `GitHub Actions`
+
+[🔗 서비스](https://chiikawa-finder.vercel.app) · [💻 GitHub](https://github.com/OHaEuN/chiikawaFinder)
+
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -69,9 +86,35 @@
 
 ## 🤝 Team Projects
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-[![skklub](https://img.shields.io/badge/skklub-v3_frontend-1a1b27?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OHaEuN/skklub-v3-frontend)
-[![c-campus](https://img.shields.io/badge/c--campus-frontend-1a1b27?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OHaEuN/c-campus-frontend)
+#### 🏫 [SKKLUB v3](https://github.com/OHaEuN/skklub-v3-frontend)
 
-</div>
+**성균관대 동아리 소개 서비스**
+
+<sub>2023.07 ~ 12 · FE 2 · BE 3 · 디자인 2</sub>
+
+> 👥 월평균 사용자 **280명**<br>
+> 페이지뷰 **3,000회**
+
+`Next.js` `Emotion` `Recoil` `React Query`
+
+</td>
+<td width="50%" valign="top">
+
+#### 📸 [CongCampus](https://github.com/OHaEuN/c-campus-frontend)
+
+**대학생 롤링페이퍼 · 네컷사진 SNS**
+
+<sub>2023.07 ~ 09 · FE 2 · BE 3 · 디자인 2</sub>
+
+> 🏆 방문자 **약 1,400명**<br>
+> 트렌딩 프로덕트 **1위**
+
+`React` `TypeScript` `Emotion` `Recoil`
+
+</td>
+</tr>
+</table>
