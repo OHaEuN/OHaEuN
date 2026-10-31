@@ -19,16 +19,9 @@
 
 ### 🎨 톤빛 ToneBit
 
-**셀카 한 장으로 퍼스널 컬러를 찾고, 어울리는 립을 얼굴에 바로 발라 보는 서비스**
+**셀카 한 장으로 찾는 퍼스널 컬러와 립·블러셔 가상 체험**
 
 <sub>2026.10 ~ · 개인 프로젝트 · AI 에이전트 활용 개발</sub>
-
-> 📈 FairFace 동아시아인 1,176장으로 기준 재보정<br>
-> 시즌 일치율 **84.1% → 86.8%**, 12톤 **64.3% → 74.5%**
-
-`Next.js 16` `React 19` `MediaPipe` `Zustand` `Supabase` `pgvector` `Gemini` `Playwright`
-
-[🔗 서비스](https://tonebit.vercel.app) · [💻 GitHub](https://github.com/OHaEuN/tonebit)
 
 </td>
 <td width="50%" valign="top">
@@ -39,8 +32,31 @@
 
 <sub>2026.09 ~ 운영 중 · 개인 프로젝트 · AI 에이전트 활용 개발</sub>
 
-> 📈 굿즈 2,300여 건 · 팝업/매장 81곳 · 인물 45명<br>
-> GitHub Actions로 **매일 자동 수집 → 테스트 → 배포**
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+📈 FairFace 동아시아인 1,176장으로 기준 재보정<br>
+시즌 일치율 **84.1% → 86.8%**, 12톤 **64.3% → 74.5%**
+
+</td>
+<td width="50%" valign="top">
+
+📈 굿즈 2,300여 건 · 팝업/매장 81곳 · 인물 45명<br>
+GitHub Actions로 **매일 자동 수집 → 테스트 → 배포**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+`Next.js 16` `React 19` `MediaPipe` `Zustand` `Supabase` `pgvector` `Gemini` `Playwright`
+
+[🔗 서비스](https://tonebit.vercel.app) · [💻 GitHub](https://github.com/OHaEuN/tonebit)
+
+</td>
+<td width="50%" valign="top">
 
 `Next.js 16` `React 19` `TypeScript` `Three.js` `Leaflet` `GitHub Actions`
 
@@ -92,28 +108,48 @@
 
 #### 🏫 [SKKLUB v3](https://github.com/OHaEuN/skklub-v3-frontend)
 
-**성균관대 동아리 소개 서비스**
+**성균관대학교 동아리를 소개하고, 원하는 동아리를 찾도록 돕는 서비스**
 
 <sub>2023.07 ~ 12 · FE 2 · BE 3 · 디자인 2</sub>
-
-> 👥 월평균 사용자 **280명**<br>
-> 페이지뷰 **3,000회**
-
-`Next.js` `Emotion` `Recoil` `React Query`
 
 </td>
 <td width="50%" valign="top">
 
 #### 📸 [CongCampus](https://github.com/OHaEuN/c-campus-frontend)
 
-**대학생 롤링페이퍼 · 네컷사진 SNS**
+**네컷 사진과 함께 친구에게 쪽지를 보내는 대학생 롤링페이퍼 SNS**
 
 <sub>2023.07 ~ 09 · FE 2 · BE 3 · 디자인 2</sub>
 
-> 🏆 방문자 **약 1,400명**<br>
-> 트렌딩 프로덕트 **1위**
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+👥 월평균 사용자 **280명**<br>
+페이지뷰 **3,000회**
+
+</td>
+<td width="50%" valign="top">
+
+🏆 방문자 **약 1,400명**<br>
+IT 서비스 소개 SNS 트렌딩 프로덕트 **1위**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+`Next.js` `Emotion` `Recoil` `React Query` `Docker`
+
+[💻 GitHub](https://github.com/OHaEuN/skklub-v3-frontend)
+
+</td>
+<td width="50%" valign="top">
 
 `React` `TypeScript` `Emotion` `Recoil`
+
+[💻 GitHub](https://github.com/OHaEuN/c-campus-frontend)
 
 </td>
 </tr>
