@@ -71,7 +71,7 @@
 
 <div align="center">
 
-[![skklub](https://github-readme-stats.vercel.app/api/pin/?username=OHaEuN&repo=skklub-v3-frontend&theme=tokyonight&hide_border=true)](https://github.com/OHaEuN/skklub-v3-frontend)
-[![c-campus](https://github-readme-stats.vercel.app/api/pin/?username=OHaEuN&repo=c-campus-frontend&theme=tokyonight&hide_border=true)](https://github.com/OHaEuN/c-campus-frontend)
+[![skklub](https://img.shields.io/badge/skklub-v3_frontend-1a1b27?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OHaEuN/skklub-v3-frontend)
+[![c-campus](https://img.shields.io/badge/c--campus-frontend-1a1b27?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OHaEuN/c-campus-frontend)
 
 </div>
