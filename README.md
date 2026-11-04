@@ -21,7 +21,7 @@
 
 ### 🎨 톤빛 ToneBit
 
-**셀카로 퍼스널 컬러를 가늠하고, 올리브영 베스트 립 100여 색을 내 얼굴에 발라 보고 고르는 가상 체험**
+**셀카로 톤을 가늠하고, 올리브영 베스트 립을 내 얼굴에 발라 보고 고르는 서비스**
 
 <sub>2026.10 ~ · 개인 프로젝트 · AI 에이전트 활용 개발</sub>
 
@@ -41,9 +41,8 @@
 <tr>
 <td width="50%" valign="top">
 
-📈 FairFace 동아시아인 1,176장으로 기준 재보정<br>
-조명 6종 변형 간 판정 일치율 시즌 **84.1% → 86.8%**, 12톤 **64.3% → 74.5%**<br>
-<sub>공개 데이터에 전문가 정답이 없어 조명 견고성만 검증. 정확도는 이용자의 전문가 진단 피드백으로 매주 재보정</sub>
+🔒 얼굴 분석 전부 브라우저에서 · 립 104색 가상 체험<br>
+📈 조명을 바꿔도 같은 판정 **84.1% → 86.8%** (FairFace 1,176장)
 
 </td>
 <td width="50%" valign="top">
@@ -56,7 +55,7 @@ GitHub Actions로 **매일 자동 수집 → 테스트 → 배포**
 <tr>
 <td width="50%" valign="top">
 
-`Next.js 16` `React 19` `MediaPipe` `Zustand` `Supabase` `pgvector` `Gemini` `Playwright`
+`Next.js 16` `React 19` `MediaPipe` `Postgres` `Gemini` `Playwright`
 
 [🔗 서비스](https://tonebit.vercel.app) · [💻 GitHub](https://github.com/OHaEuN/tonebit)
 
