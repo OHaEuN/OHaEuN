@@ -57,7 +57,7 @@ GitHub Actions로 **매일 자동 수집 → 테스트 → 배포**
 
 `Next.js 16` `React 19` `MediaPipe` `Postgres` `Gemini` `Playwright`
 
-[🔗 서비스](https://tonebit.vercel.app) · [💻 GitHub](https://github.com/OHaEuN/tonebit)
+[🔗 서비스](https://tonebit.vercel.app) · [💻 GitHub](https://github.com/OHaEuN/tonebit) · [📝 기획 문서](https://github.com/OHaEuN/tonebit/tree/master/docs/planning)
 
 </td>
 <td width="50%" valign="top">
