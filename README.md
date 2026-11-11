@@ -64,7 +64,7 @@ GitHub Actions로 **매일 자동 수집 → 테스트 → 배포**
 
 `Next.js 16` `React 19` `TypeScript` `Three.js` `Leaflet` `GitHub Actions`
 
-[🔗 서비스](https://chiikawa-finder.vercel.app) · [💻 GitHub](https://github.com/OHaEuN/chiikawaFinder)
+[🔗 서비스](https://chiikawa-finder.vercel.app) · [💻 GitHub](https://github.com/OHaEuN/chiikawaFinder) · [📝 기획 문서](https://github.com/OHaEuN/chiikawaFinder/tree/master/docs/planning)
 
 </td>
 </tr>
